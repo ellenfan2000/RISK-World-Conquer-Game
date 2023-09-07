@@ -1,15 +1,7 @@
 ECE 651 Team 7: World conquering game (Risk)
 =======================================
 
-![pipeline](https://gitlab.oit.duke.edu/xh123/ece651-sp23-team7-risk/badges/master/pipeline.svg)
-![coverage](https://gitlab.oit.duke.edu/xh123/ece651-sp23-team7-risk/badges/master/coverage.svg?job=test)
-
- ## Coverage
-[Detailed coverage](https://xh123.pages.oit.duke.edu/ece651-sp23-team7-risk/dashboard.html)
-
-
 ## How to run
----
 ### Start the server
 In a terminal, run the following command:
 ```bash
@@ -24,7 +16,6 @@ $ ./gradlew run-client
 Repeat the above command to start more clients.
 
 ## Game play
----
 
 When all clients are connected, the server will start the game automatically. Once the game starts, the goal is to conquer all the territories on the map. The player who conquers all the territories first wins the game. 
 
